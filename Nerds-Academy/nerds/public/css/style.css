@@ -1,0 +1,321 @@
+* {
+    outline: none !important;
+}
+
+*:hover,
+a:hover {
+    text-decoration: none;
+}
+
+
+.navbarlight-light {
+    background-color: #fff;
+    color: black;
+    text-align: right;
+}
+
+a.nav-link,
+.nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+    float: right;
+}
+
+a.navbar-light {
+    color: black !important;
+    /* background-color: #ffffff60; */
+
+}
+
+@media(max-width: 990px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: black !important;
+        margin: 0px -20px;
+    }
+
+}
+
+
+
+span.navbar-toggler-icon,
+.navbar-light,
+.navbar-toggler {
+    color: black !important;
+    /* background-color: black !important; */
+}
+
+
+
+
+.theme-container {
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('/images/welcome/themes1.jpg');
+    background-size: cover;
+    background-position: center center;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.mytheme {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffffb4
+}
+
+
+.theme-container2 {
+    width: 100%;
+    height: 520px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('/images/generalcourses/theme2.jpg');
+    background-size: cover;
+    background-position: center center;
+    transform: translate3d(0px, 0px, 0px);
+    margin-bottom: 1.4rem;
+}
+
+
+
+
+.theme-container3 {
+    width: 100%;
+    height: 520px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('/images/coaching/theme3.jpg');
+    background-size: cover;
+    background-position: center center;
+    transform: translate3d(0px, 0px, 0px);
+    margin-bottom: 1.4rem;
+}
+
+
+
+
+.mytheme2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff9c
+}
+
+.mytheme2 h1 {
+    font-size: 60px;
+    border-bottom: 4px solid rgba(0, 64, 255, 0.432);
+}
+
+.mytheme h1 {
+    font-size: 60px;
+    border-bottom: 4px solid rgba(0, 64, 255, 0.432);
+}
+
+
+.what {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: 120px;
+    background-color: #e9ecef;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ourcarousl-con {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.ourcarousl {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.ourcarousl1 {
+    background-position: top right;
+    background-image: url('/images/welcome/uni1.jpg');
+}
+
+.ourcarousl2 {
+    background-position: top right;
+    background-image: url('/images/welcome/uni2.jpg');
+}
+
+.ourcarousl3 {
+    background-image: url('/images/welcome/uni3.jpg');
+}
+
+.ourcarousl4 {
+    background-image: url('/images/welcome/uni4.jpg');
+}
+
+.ourcarousl5 {
+    background-image: url('/images/welcome/uni5.jpg');
+}
+
+.ourcarousl6 {
+    background-image: url('/images/welcome/uni6.jpg');
+}
+
+
+
+.one-uni {
+    border: #656775 solid 1px;
+    color: rgba(101, 103, 117, 1);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 490px !important;
+    /* height: 38px; */
+}
+
+
+
+.looking-at {
+    border: #656775 solid 1px;
+    color: rgba(101, 103, 117, 1);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(100% - 10px) !important;
+}
+
+
+a div .looking-at:hover,
+.one-uni:hover {
+    text-decoration: none;
+    background-color: #6567752a;
+}
+
+
+.ratingStars {
+    display: inline;
+}
+
+
+.coahing-call {
+    width: 100px;
+    height: 40px;
+    background-color: #111146;
+    float: left !important;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.button-coaching-continer{
+    display: flex;
+    justify-content: space-between;width:100%
+}
+
+
+
+.person-major{
+    border: #656775 solid 1px;
+    color: #656775;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto 40px;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.major_current{
+   margin: auto;
+   text-align:center; 
+
+} 
+
+
+.person-major:hover{
+    background-color:#6567752a ;
+}
+
+
+.coursesContainer{
+    
+    margin-top:20px;padding:20px;border:1px solid #a2a2e7;
+} 
+
+.head-header{
+    display:inline-block;display:inline-block
+}
+
+
+
+.coursesbox{
+    display:block !important;height:120px;border:1px solid #a2a2e7;padding:10px;margin :10px 0px
+}
+
+
+.commetsContainer{
+    display: flex;align-items: center;border:1px solid #a2a2e7;padding:5px;margin: 5px;
+}
